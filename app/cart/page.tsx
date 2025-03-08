@@ -114,7 +114,7 @@ export default function CartPage() {
   const subtotal = displayCartItems.reduce((sum, item) => sum + item.product.price * item.quantity, 0)
   const shipping = subtotal > 0 ? 5.99 : 0
   const tax = subtotal * 0.08 // 8% tax rate
-  const total = subtotal + shipping + tax
+  const total = subtotal +      shipping + tax
   displayCartItems
   return (
     <div className="w-[90%] mx-auto py-10">
