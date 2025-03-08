@@ -34,9 +34,6 @@ export default function AboutPage() {
     },
   ]
 
-
-  
-
   return (
     <div className="w-[80%] mx-auto py-10">
       <div className="space-y-16">
